@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:12
+    environment:
+      POSTGRES_USER: 4tr3yu
+      POSTGRES_PASSWORD: 4tr3yu
+      POSTGRES_DB: 4tr3yu
+  app:
+    image: 4tr3yu-test-app
+    ports:
+      - "3043:3000"
