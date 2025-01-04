@@ -1,6 +1,8 @@
 #Docker example
 
-## Instalacion
+## Instalación
+Correr estos comandos para crear las imagenes necesarias
+
 ```bash
 docker build -t 4tr3yu-test-app .
 ```
